@@ -1,0 +1,19 @@
+.image-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:5px;
+
+}
+
+.image{
+    height:300px;
+    border-radius: 5px;
+}
+
+
+.recipe-name{
+    font-weight: bold;
+    font-size: 20px;
+    color:rgb(92, 32, 149)
+}

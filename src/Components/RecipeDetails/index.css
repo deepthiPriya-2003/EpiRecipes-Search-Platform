@@ -1,0 +1,86 @@
+.recipe-details-bg-container{
+    display:flex;
+    flex-direction: column;
+}
+
+.recipe-details-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin:15px;
+   
+
+}
+
+.image-details{
+    height:400px;
+    border-radius: 5px;
+}
+
+
+.recipe-description{
+    font-weight: bold;
+    font-size: 20px;
+} 
+
+.details-container{
+    display: flex;
+    flex-direction: column;
+    
+    margin:20px;
+   
+}
+
+.name-heading{
+    font-weight: bold;
+    color:rgb(92, 32, 149);
+} 
+
+.ratings{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-weight: bold;
+}
+.star{
+    color:gold;
+    margin-left:5px;
+}
+
+.process-container{
+    display: flex;
+    flex-direction: column;
+    margin:15px;
+}
+
+.text{
+    font-weight:bold;
+}
+
+.high-lights{
+    font-weight: bold;
+    font-size: 25px;
+   
+
+} 
+
+
+.back-button{
+    align-self: self-start;
+    background-color: transparent;
+    border-width: 0px;
+    color:rgb(92, 32, 149);
+    font-size: 15px;
+    font-weight: bold;
+    
+}
+
+.back-btn-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-weight: bold;
+    color:rgb(92, 32, 149);
+    margin-left:20px;
+}
