@@ -129,5 +129,291 @@ export default function RecipesList() {
             method:'Heat 1 tbsp olive oil in a large saucepan. Add the onion and celery and fry for 10-15 mins, or until starting to soften, then add the garlic and cook for 1 min more. Stir in all the other ingredients, except for the pesto and remaining oil, and bring to the boil.Reduce the heat and leave to simmer for 6-8 mins, or until the pasta is tender. Season to taste, then ladle into bowls.Stir the remaining oil with the pesto, then drizzle over the soup. Serve with chunks of crusty bread.',
             ratings:5  
           },
+          {
+              id:"17",
+              name: "Vegetable Biryani",
+              description: "A fragrant rice dish loaded with mixed vegetables and aromatic spices.Healthy, High-fibre, High-protein dish",
+              imageUrl: "https://img.freepik.com/premium-photo/indian-tasty-vegetable-pulav-veg-biryani-made-using-basmati-rice-served-terracotta-c_198067-491062.jpg",
+              ingredients: [
+                "1 cup basmati rice",
+                "2 cups mixed vegetables (carrots, peas, beans)",
+                "1 onion (sliced)",
+                "2 tomatoes (chopped)",
+                "1/2 cup yogurt",
+                "Spices: bay leaf, cinnamon, cloves, cardamom"
+              ],
+              method: [
+                "Sauté onions until golden. Add tomatoes and spices.",
+                "Stir in vegetables and yogurt.",
+                "Layer rice and vegetable mix in a pot; cook until rice is done."
+              ],
+              ratings:5 
+            },
+            {
+              id:"18",
+              name: "Paneer Butter Masala",
+              description: "A creamy, mildly spiced curry with paneer cubes simmered in a rich tomato gravy.Healthy and tasty, High-protein dish",
+              imageUrl: "https://vegecravings.com/wp-content/uploads/2017/04/paneer-butter-masala-recipe-step-by-step-instructions-500x375.jpg",
+              ingredients: [
+                "200g paneer (cubed)",
+                "1 onion (chopped)",
+                "2 tomatoes (pureed)",
+                "1/2 cup cream",
+                "Spices: garam masala, cumin, turmeric"
+              ],
+              method: [
+                "Sauté onions until soft. Add tomato puree and spices.",
+                "Simmer, then add cream and paneer.",
+                "Cook until heated through."
+              ],
+              ratings:4.5
+            },
+            {
+              id:"19",
+              name: "Chicken Curry",
+              description: "A classic Indian chicken curry with tender pieces simmered in a spicy, aromatic sauce.",
+              imageUrl: "https://www.funfoodfrolic.com/wp-content/uploads/2020/09/Chicken-Curry-Thumbnail-500x375.jpg",
+              description: "A classic Indian chicken curry with tender pieces simmered in a spicy, aromatic sauce.",
+              ingredients: [
+                "500g chicken (cut into pieces)",
+                "2 onions (sliced)",
+                "3 tomatoes (chopped)",
+                "2 cloves garlic, 1-inch ginger (minced)",
+                "Spices: garam masala, turmeric, coriander powder"
+              ],
+              method: [
+                "Sauté onions, garlic, and ginger. Add spices.",
+                "Add chicken pieces and cook until browned.",
+                "Stir in tomatoes and simmer until chicken is tender."
+              ],
+              ratings:4
+            },
+            {
+              id:"20",
+              name: "Grilled Salmon with Garlic Butter",
+              description: "Juicy, perfectly grilled salmon fillet drizzled with a flavorful garlic butter sauce.Grilled Salmon with Garlic Butter is rich in nutrition.",
+              imageUrl: "https://umamidays.com/wp-content/uploads/2021/05/salmon-lemon-garlic-sauce.jpg",
+              ingredients: [
+                "2 salmon fillets",
+                "2 tbsp butter",
+                "3 cloves garlic (minced)",
+                "Lemon juice, salt, pepper"
+              ],
+              method: [
+                "Season salmon with salt, pepper, and lemon juice.",
+                "Grill salmon for 6–8 minutes per side.",
+                "In a pan, melt butter, add garlic, and drizzle over grilled salmon."
+              ],
+              ratings:4
+            },
+           {
+                id:"21",
+                name:"Chickpea Spinach Curry",
+                description: "Chickpea Spinach Curry is a flavorful, protein-rich curry with chickpeas and spinach.A soothing curry with good nutritional values. High in protein. ",
+                imageUrl: "https://mygoodnesskitchen.com/wp-content/uploads/2022/02/Chickpea-and-Spinach-Curry-Hero-1061.jpg",
+                ingredients: [
+                  "2 cups chickpeas (cooked)",
+                  "2 cups spinach",
+                  "1 onion (chopped)",
+                  "2 tomatoes (chopped)",
+                  "2 cloves garlic (minced)",
+                  "1 tbsp ginger (grated)",
+                  "1 tsp cumin",
+                  "1 tsp turmeric",
+                  "Salt and pepper"
+                ],
+                method: [
+                  "Sauté onions, garlic, and ginger in a pan until soft.",
+                  "Add tomatoes and cook until tender.",
+                  "Add chickpeas, cumin, turmeric, salt, and pepper.",
+                  "Simmer for 15 minutes. Add spinach at the end."
+                ],
+                ratings:4
+              },
+              {
+                id:"22",
+                name: "Vegan Buddha Bowl",
+                description: "A colorful, nutrient-packed bowl with quinoa, roasted veggies, and tahini sauce.A healthy and tasty recipe, Rich in fiber and Protein",
+                imageUrl: "https://www.eatingbirdfood.com/wp-content/uploads/2022/04/buddha-bowl-hero.jpg",
+                ingredients: [
+                  "1 cup quinoa (cooked)",
+                  "1 cup broccoli (roasted)",
+                  "1 cup sweet potatoes (roasted)",
+                  "1 avocado (sliced)",
+                  "1/4 cup tahini",
+                  "1 tbsp lemon juice"
+                ],
+                method: [
+                  "Roast sweet potatoes and broccoli.",
+                  "Cook quinoa according to package instructions.",
+                  "Assemble bowl with quinoa, veggies, and avocado.",
+                  "Drizzle with tahini sauce mixed with lemon juice."
+                ],
+                ratings:5
+              },
+              {
+                id:"23",
+                name: "Lentil Soup",
+                description: "A hearty and comforting soup packed with lentils and vegetables. A high-protein meal featuring a mix of lentils, carrots, and veggies, providing essential nutrients and energy for a balanced diet.",
+                imageUrl: "https://www.elizabethrider.com/wp-content/uploads/2022/09/red-lentil-soup-recipe-in-bowl-with-spoon-and-cilantro-elizabeth-rider.jpg",
+                ingredients: [
+                  "1 cup lentils (rinsed)",
+                  "1 onion (chopped)",
+                  "2 carrots (chopped)",
+                  "2 celery stalks (chopped)",
+                  "4 cups vegetable broth",
+                  "1 tsp thyme"
+                ],
+                method: [
+                  "Sauté onion, carrot, and celery until soft.",
+                  "Add lentils, broth, and thyme.",
+                  "Simmer until lentils are tender (30 minutes)."
+                ],
+                ratings:4.5
+              },
+              {
+                id:"24",
+                name: "Tofu Stir-Fry",
+                description: "A quick, protein-packed stir-fry with crispy tofu and colorful vegetables.A high-protein recipe, providing essential nutrients and energy."
+,
+                imageUrl: "https://rainbowplantlife.com/wp-content/uploads/2023/01/tofu-stir-fry-cover-photo-1-of-1.jpg",
+                ingredients: [
+                  "200g firm tofu (cubed)",
+                  "1 bell pepper (sliced)",
+                  "1 cup broccoli florets",
+                  "2 tbsp soy sauce",
+                  "1 tbsp sesame oil"
+                ],
+                method: [
+                  "Pan-fry tofu until crispy.",
+                  "Sauté vegetables in sesame oil.",
+                  "Add soy sauce and combine with tofu."
+                ],
+                ratings:5
+              },
+              {
+                id:"25",
+                name: "Eggplant Parmesan",
+                description: "Classic baked eggplant with marinara sauce and melted cheese.Very tasty and enjoyable recipe with good nutritional values.",
+                imageUrl: "https://foolproofliving.com/wp-content/uploads/2023/03/Baked-Eggplant-Parmesan-Recipe.jpg",
+                ingredients: [
+                  "1 large eggplant (sliced)",
+                  "2 cups marinara sauce",
+                  "1 cup mozzarella cheese",
+                  "1/2 cup parmesan cheese",
+                  "1/2 cup breadcrumbs"
+                ],
+                method: [
+                  "Bread and bake eggplant slices until golden.",
+                  "Layer eggplant, marinara sauce, and cheese in a baking dish.",
+                  "Bake at 180°C (350°F) until cheese melts."
+                ],
+                ratings:4
+              },
+              {
+                id:"26",
+                name: "Chicken Tikka Masala",
+                description: "A creamy, spiced curry with marinated chicken pieces.A flavorful chicken recipe with vibrant vegetables, marinated in spices, perfect for a quick and healthy meal",
+                imageUrl: "https://i.ytimg.com/vi/qHkpcKmjdeE/sddefault.jpg",
+                ingredients: [
+                  "500g chicken breast (cubed)",
+                  "1 cup yogurt",
+                  "1 onion (chopped)",
+                  "2 tomatoes (pureed)",
+                  "1/2 cup cream",
+                  "Spices: cumin, coriander, garam masala"
+                ],
+                method: [
+                  "Marinate chicken in yogurt and spices.",
+                  "Grill chicken until cooked through.",
+                  "Sauté onions, add tomato puree, cream, and grilled chicken."
+                ],
+                ratings:4.2
+              },
+              {
+                id:"27",
+                name: "Roasted Vegetable Quinoa Salad",
+                description: "Roasted Vegetable Quinoa Salad is a healthy and vibrant salad with roasted vegetables and fluffy quinoa. Rich in fiber and Protein. ",
+                imageUrl: "https://runningonrealfood.com/wp-content/uploads/2021/10/Roasted-Vegetable-Kale-Quinoa-Salad-Recipe-21.jpg",
+                ingredients: [
+                  "1 cup quinoa",
+                  "1 red bell pepper (chopped)",
+                  "1 zucchini (sliced)",
+                  "1 cup cherry tomatoes",
+                  "1 cup broccoli florets",
+                  "2 tbsp olive oil",
+                  "1/2 lemon (juiced)",
+                  "1/4 cup feta cheese (optional)",
+                  "Salt and pepper to taste",
+                  "Fresh parsley (for garnish)"
+                ],
+                method: [
+                  "Preheat the oven to 200°C (400°F).",
+                  "Toss bell pepper, zucchini, cherry tomatoes, and broccoli with olive oil, salt, and pepper.",
+                  "Spread the vegetables on a baking tray and roast for 20-25 minutes until tender.",
+                  "While the vegetables are roasting, cook quinoa according to package instructions.",
+                  "Mix the cooked quinoa with the roasted vegetables in a large bowl.",
+                  "Drizzle with lemon juice and top with feta cheese (if using).",
+                  "Garnish with fresh parsley before serving."
+                ],
+                ratings:4
+              },
+              {
+                id:"29",
+                name: "Stuffed Bell Peppers",
+                description: "Colorful bell peppers stuffed with a savory mixture of rice, beans, and vegetables.Highly nutritious healthy and tasty recipe with a splended stuffing.",
+                imageUrl: "https://www.allrecipes.com/thmb/E3Fb_InQzzaBJwaP2W4nCn-nzDs=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/231514-vegetarian-mexican-inspired-stuffed-peppers-DDMFS-4x3-5be7a1f8b64d4465848ddb9a3aef4084.jpg",
+                ingredients: [
+                  "4 large bell peppers (any color)",
+                  "1 cup cooked rice",
+                  "1/2 cup black beans (cooked or canned, drained)",
+                  "1/2 cup corn kernels",
+                  "1 onion (finely chopped)",
+                  "2 cloves garlic (minced)",
+                  "1 cup tomatoes (diced)",
+                  "1/2 cup shredded cheese (optional)",
+                  "2 tbsp olive oil",
+                  "1 tsp cumin",
+                  "1 tsp paprika",
+                  "Salt and pepper to taste",
+                  "Fresh cilantro (for garnish)"
+                ],
+                method: [
+                  "Preheat the oven to 180°C (350°F).",
+                  "Cut the tops off the bell peppers and remove the seeds.",
+                  "In a pan, heat olive oil and sauté onions and garlic until soft.",
+                  "Add tomatoes, black beans, corn, cooked rice, cumin, paprika, salt, and pepper. Cook for 5-7 minutes.",
+                  "Stuff the bell peppers with the rice mixture and place them in a baking dish.",
+                  "Top with shredded cheese (if using).",
+                  "Bake for 25-30 minutes until the peppers are tender.",
+                  "Garnish with fresh cilantro before serving."
+                ],
+                rating:5
+              },
+              {
+                id:"30",
+                name: "Pasta Primavera",
+                description: "A light pasta dish loaded with fresh, colorful vegetables. Healthy and tasty everyone can enjoy the flavour of pasta",
+                imageUrl: "https://www.eatingbirdfood.com/wp-content/uploads/2024/07/pasta-primavera-hero-new.jpg",
+                ingredients: [
+                  "250g pasta",
+                  "1 bell pepper (sliced)",
+                  "1 cup broccoli florets",
+                  "1 zucchini (sliced)",
+                  "1/2 cup cherry tomatoes",
+                  "1/4 cup parmesan cheese"
+                ],
+                method: [
+                  "Cook pasta according to package instructions.",
+                  "Sauté vegetables until tender.",
+                  "Combine pasta and vegetables, sprinkle with parmesan."
+                ],
+                ratings:4.5
+              }
+            
+          
     ]
 }
+
+
+

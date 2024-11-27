@@ -37,14 +37,14 @@ class Home extends Component{
     
         render(){
             const {recipesListData, selectedId, updatedRecipesList}=this.state 
-           console.log(updatedRecipesList)
+          // console.log(updatedRecipesList)
         return(
             <div className="home-bg-container">
                 <div className="top-container">
                 <h1 className="heading">EpiRecipes Search Platform</h1> 
                 <div className="search-input-container">
                 <FaSearch />
-                <input type="search" className="input-container"  onChange={this.onchangeInput} />
+                <input type="search" className="input-container"  onChange={this.onchangeInput} placeholder="Enter Recipe Name To Know Recipe Details" />
                 </div>
                 </div>
                 <div className="recipes-container">
