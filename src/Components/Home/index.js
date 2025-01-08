@@ -16,7 +16,8 @@ class Home extends Component{
        this.setState({selectedId:id})
        
     } 
-    onchangeInput=(event)=>{
+    onchangeInput=(event)=>{ 
+
         const {recipesListData, searchInput} = this.state
         const value = (event.target.value).toLowerCase() 
         const updatedData = recipesListData.filter(recipe => recipe.name.toLowerCase().includes(value))  
@@ -34,20 +35,39 @@ class Home extends Component{
     }
     
 
+    onClickReturnHome=()=>{
+        const {recipesListData} = this.state
+       // const input = (event.target.value).toLowerCase() 
+        const updatedData = recipesListData.filter(recipe => recipe.name.toLowerCase().includes(""))  
+
+        this.setState({searchInput:"", updatedRecipesList:updatedData}) 
+        
+       
+
+    }
+
     
         render(){
-            const {recipesListData, selectedId, updatedRecipesList}=this.state 
-          // console.log(updatedRecipesList)
+            const {recipesListData, selectedId, updatedRecipesList, searchInput}=this.state 
+            console.log(updatedRecipesList.length) 
+            const inputValue = searchInput
+           const updatedRecipesListLength = updatedRecipesList.length<=0
         return(
             <div className="home-bg-container">
                 <div className="top-container">
                 <h1 className="heading">EpiRecipes Search Platform</h1> 
                 <div className="search-input-container">
                 <FaSearch />
-                <input type="search" className="input-container"  onChange={this.onchangeInput} placeholder="Enter Recipe Name To Know Recipe Details" />
+                <input type="search" className="input-container"  onChange={this.onchangeInput} placeholder="Enter Recipe Name To Know Recipe Details" value={inputValue} />
                 </div>
                 </div>
                 <div className="recipes-container">
+                {updatedRecipesListLength&& 
+                <div className="top-container">
+                <h1>No Data Found</h1> 
+                <button onClick={this.onClickReturnHome} >Return Home</button>
+                </div>
+                }
                 {updatedRecipesList.map(eachRecipe => {
                     return (
                         <Link to={`/recipeDetails/${eachRecipe.id}`} className="link-item" key={eachRecipe.id}> 
